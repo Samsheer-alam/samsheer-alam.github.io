@@ -5,7 +5,7 @@ function Header(props) {
   const isDarkMode = true;
   return (
     
-<div className='h-full flex flex-col items-end justify-center w-28'>
+<div className='h-full flex flex-col items-end justify-center w-28 z-10'>
 
       <div className='bg-gray-800 p-1 py-5 w-24 text-white divide-y divide-gray-400 rounded-md mb-10'>
         <div className='flex items-center flex-col'>
