@@ -12,6 +12,7 @@ const ParticleEffect = () => {
     canvas.height = window.innerHeight;
 
     function createParticles() {
+      
       for (let i = 0; i < 450; i++) {
         const x = Math.random() * canvas.width;
         const y = Math.random() * canvas.height;
