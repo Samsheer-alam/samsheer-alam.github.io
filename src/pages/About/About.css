@@ -98,3 +98,12 @@
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+.skill-description p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+.skill-description p li {
+ margin: 15px 0px;
+}
+
