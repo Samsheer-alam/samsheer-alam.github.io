@@ -1,0 +1,19 @@
+.container {
+  width: 80%; /* w-4/5 is equivalent to 80% width */
+  height: 98vh;
+  display: flex; /* flex */
+  flex-direction: row; /* flex-row */
+  margin: 0vh auto; /* mx-auto is equivalent to margin: 0 auto */
+  z-index: 10;
+  padding-top: 1vh;
+}
+
+.sub-container {
+  width: 100%; 
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  z-index: 10; /* z-10 is equivalent to z-index: 10 */
+  padding: 0 1px; /* px-10 is equivalent to padding: 0 10px */
+  margin: 0px 10px;
+}

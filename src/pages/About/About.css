@@ -1,0 +1,100 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 98vh;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0rem 2rem;
+}
+
+.about-title {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-content {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.about-paragraph {
+  margin-top: 1rem;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.about-skill-section {
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 45%;
+}
+
+.skill-heading {
+  display: flex;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.skill-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.skill-description {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.skill-list {
+  list-style-type: none;
+}
+
+.skill-list li {
+  margin-top: 0.5rem;
+}
+
+.skill-icons {
+  margin-top: 1rem;
+}
+
+.about-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.tool-section {
+  margin: 0rem 1rem;
+}
+
+.tool-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tool-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tool-icons img {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
